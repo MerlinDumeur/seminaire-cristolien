@@ -1,0 +1,73 @@
+:root {
+    --r-heading-margin: 0 0 20px 0;
+}
+
+.reveal .slide {
+    display: flex !important;
+    flex-direction: column;
+}
+
+
+.reveal .slide .stretch-lines{
+    /* Take full height of the slide/page */
+    max-height: 100%;
+    flex: 1;
+    /* overflow: auto; */
+    margin-bottom: 0;
+    display: flex !important;
+    flex-direction: column;
+    /* Spread items evenly between top and bottom */
+    justify-content: space-evenly;
+}
+
+.reveal .slide .fullslide ul, ol{
+    justify-content: space-evenly !important;
+}
+
+.reveal .slide .stretch-lines p{
+    /* Take full height of the slide/page */
+}
+
+.reveal .slide .stretch-lines ul, ol{
+    /* Take full height of the slide/page */
+    flex: 1;
+    margin-bottom: 0;
+    display: flex !important;
+    flex-direction: column;
+    /* Spread items evenly between top and bottom */
+    justify-content: space-between;
+}
+
+.reveal .slide .equations-align .MathJax_Display{
+    margin-left: 200px !important;
+    text-align: left !important;
+}
+
+.section {
+    height: 100%;
+}
+
+.table {
+    width: 100%;
+}
+
+.reveal .slide .manim{
+    position: absolute;
+    width: 1700px;
+    top: 8%
+}
+
+.reveal .slide .LG{
+    position: absolute;
+    width: 250px;
+    right: 0%
+}
+
+.reveal ul + table {
+    margin-top: .35em; /* or whatever spacing you want */
+    margin-bottom: 1em;
+}
+
+.reveal .stretch-lines ul > li > ul {
+
+}
